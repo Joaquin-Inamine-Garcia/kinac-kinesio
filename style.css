@@ -31,57 +31,9 @@ html{
     z-index: 1000;
 }
 .header #logo{
-    width: 50px;
+    width: 200px;
 }
-.navbar a{
-    color: var(--blanco);
-    font-size: 3rem;
-    margin-left: 2rem;
-    position: relative;
-  
-}
-.navbar a:after{
-    content: '';
-    background: var(--naranja);
-    width: 0;
-    height: 3px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin-top: 5px;
-    transition: .3s;
-}
-.navbar a:hover:after{
-    content: '';
-    background: var(--naranja);
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin-top: 5px;
-}
-.icons div{
-    font-size: 2rem;
-    margin-right: 1rem;
-    color: white;
-    display: none;
-}
-.icons a{
-    color: white;
-    background: var(--naranja);
-    padding: 1.5rem 3rem;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    transition: .5s;
-}
-.icons a:hover{
-    background: transparent;
-    border: 1px solid var(--secclr);
-}
-.navbar.active{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
+
 .background-image{
     background: url(img/kinesiologia-75.jpg);
     width: 100%;
@@ -103,10 +55,6 @@ html{
     color:black;
     font-size: 50px;
     margin-bottom: 10px;
-}
-.background-content p{
-    font-size: 1.5rem;
-    margin-bottom: 40px;
 }
 
 .background-content a{
@@ -183,8 +131,9 @@ html{
 
 }
 .left-service-content h1{
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 .left-service-content p{
     font-size: 1.5rem;
@@ -243,7 +192,7 @@ html{
 }
 .gallery h1{
     color: var(--mainclr);
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -266,51 +215,28 @@ html{
     transform: scale(1.1);
     border-radius: 20px;
 }
-.our-doctors{
+.our-contact{
     padding: 4rem 7%;
 }
-.our-doctors h1{
-    text-align: center;
+.our-contact h1{
+    text-align:center;
     font-size: 40px;
     color: var(--mainclr);
     margin-bottom: 30px;
 }
-.main-doctor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.inner-doctor{
-    flex: 1 1 300px;
-    position: relative;
-}
-.inner-doctor img{
-    width: 100%;
 
-}
-.doc-icons{
-    position: absolute;
-    bottom: 2%;
-}
-.doc-icons div{
+
+.contact-icons div{
     font-size: 2rem;
-    color: var(--mainclr);
+    color: var(black);
     background: white;
     border: 1px solid black;
-    margin-left: 2rem;
+    margin-left: 1rem;
     width: 4rem;
     height: 4rem;
     line-height: 4rem;
     text-align: center;
     cursor: pointer;
-}
-.doc-icons div:hover{
-    transform: scale(1.1);
-}
-.why-choseus{
-    padding: 4rem 7%;
 }
 .main-chose{
     display: flex;
@@ -336,16 +262,6 @@ html{
     justify-content: center;
     margin: 1rem 0;
     
-}
-.chose-icon i{
-    width: 5rem;
-    height: 5rem;
-    line-height: 5rem;
-    background: white;
-    color: var(--mainclr);
-    font-size: 3rem;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .icon-content{
     padding: 0 4rem;
@@ -385,38 +301,6 @@ html{
 }
 
 
-/* width */
-::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px var(--mainclr); 
-    background: var(--mainclr);
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--secclr); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--third); 
-  }
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:767px) {
 
     html{
@@ -434,7 +318,7 @@ html{
         left: 0;
         width: 100%;
         height: 100vh;
-        background: var(--secclr);
+        background: var(--blanco);
         display: flex;
         
         align-items: center;
