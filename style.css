@@ -6,6 +6,7 @@
     --amarillo:#dbc90a;
     
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -175,11 +176,6 @@ html{
     line-height: 2;
 }
 
-.service-icon i:hover{
-    color: white;
-    background: var(--mainclr);
-}
-
 /*Medicos*/
 .our-services{
     padding: 4rem 7%;
@@ -347,9 +343,6 @@ html{
     }
     .header{
         padding: 2rem;
-    }
-    .icons div{
-        display: initial;
     }
    
     .background-content{
